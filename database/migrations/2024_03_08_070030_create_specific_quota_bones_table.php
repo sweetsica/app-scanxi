@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('bm_min')->nullable();
             $table->string('bm_max')->nullable();
             $table->string('bm_type')->nullable();
-            $table->boolean('broken')->nullable();
+            $table->boolean('fracture_history')->nullable();
             $table->string('bm_result')->nullable();
             $table->string('note')->nullable();
             $table->timestamps();

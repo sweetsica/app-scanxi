@@ -6,18 +6,13 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    // Bảng thông số chỉ số khối cơ thể BMI (Body Mass Index)
     /**
      * Run the migrations.
      */
     public function up(): void
     {
-        Schema::create('specific_quota_volumes', function (Blueprint $table) {
+        Schema::create('positions', function (Blueprint $table) {
             $table->id();
-            $table->float('vol_min')->nullable();
-            $table->float('vol_max')->nullable();
-            $table->string('result')->nullable();
-            $table->string('note')->nullable();
             $table->timestamps();
         });
     }
@@ -27,6 +22,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('specific_quota_volumes');
+        Schema::dropIfExists('positions');
     }
 };
