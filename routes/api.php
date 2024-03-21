@@ -4,7 +4,7 @@ use App\Imports\AgeImport;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ImportQuotaController;
-use App\Http\Controllers\ApiCustomerController;
+use App\Http\Controllers\Api\ApiCustomerController;
 
 /*
 |--------------------------------------------------------------------------

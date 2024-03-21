@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\DirectController;
+use App\Http\Controllers\Api\PredictController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/',[DirectController::class,'index']);
+Route::post('/result',[PredictController::class,'predictResult'])->name('predictResult');
