@@ -13,16 +13,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="{{ asset('frontend/assets/css/main.css') }}" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+    <link rel="stylesheet" href="{{ asset('frontend/assets/css/main.css') }}" />
     <style>
         #main {
-            background-image: url({{ asset('frontend/assets/img/ft.jpg') }});
+            background-image: url('frontend/assets/img/ft.jpg');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             height: 100vh;
             width: 100%;
+        }
+
+        @media screen and (max-width: 1024px) {
+            #main {
+                height: 100%;
+            }
         }
     </style>
 </head>
@@ -42,6 +48,7 @@
     </script>
 
     <script src="{{ asset('frontend/assets/js/main.js') }}"></script>
+    <script src="{{ asset('frontend/assets/js/chart.js') }}"></script>
 </body>
 
 </html>
