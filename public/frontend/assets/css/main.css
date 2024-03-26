@@ -247,7 +247,7 @@
     }
 
     #barChart {
-        margin-top: 7rem;
+        margin-top: 9rem;
     }
     .title-register,
     .title-product {
@@ -358,9 +358,10 @@
         margin-bottom: 0;
     }
 
-    #form-register {
-        margin: 2rem auto !important;
+    .form {
+        padding: 2rem 0rem !important;
     }
+
     .content-info {
         margin: 0;
     }
@@ -379,8 +380,8 @@
     }
 
     .img-product4 {
-    width: 145px;
-    height: 139px;
-    scale: 195%;
-}
+        width: 130px;
+        height: 139px;
+        scale: 195%;
+    }
 }

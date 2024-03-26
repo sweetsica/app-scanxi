@@ -23,6 +23,7 @@
             background-size: cover;
             height: 100vh;
             width: 100%;
+            display: flex
         }
 
         @media screen and (max-width: 1024px) {

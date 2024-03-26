@@ -40,7 +40,7 @@
     </article>
     <main id="main">
         <article id="form-register" class="m-auto">
-            <div class="container">
+            <div class="container form">
                 <div class="card card-register">
                     <div class="card-body">
                         <form action="{{ route('predictResult') }}" method="POST">
@@ -56,6 +56,7 @@
                                             placeholder="Nhập họ và tên" />
                                     </div>
                                 </div>
+
                                 <div class="col-12 col-md-4">
                                     <div class="form-group">
                                         <label for="exampleFormControlInput1">Năm sinh</label>
@@ -110,21 +111,32 @@
                                 </div>
                                 <div class="col-12 col-md-4">
                                     <div class="form-group">
-                                        <label for="exampleFormControlInput1">Chiều cao</label>
-                                        <div class="d-flex align-items-center">
-                                            <input type="text" class="form-control" placeholder="Nhập chiều cao"
-                                                name="height" />
-                                            <span class="ml-2">cm</span>
-                                        </div>
+                                        <label for="exampleFormControlInput1">BQI</label>
+                                        <input type="text" class="form-control" name="name"
+                                            placeholder="Nhập chỉ số BQI" />
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-4">
-                                    <div class="form-group">
-                                        <label for="exampleFormControlInput1">Cân nặng</label>
-                                        <div class="d-flex align-items-center">
-                                            <input type="text" class="form-control" placeholder="Nhập cân nặng"
-                                                name="weight" />
-                                            <span class="ml-2">kg</span>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-group">
+                                                <label for="exampleFormControlInput1">Cân nặng</label>
+                                                <div class="d-flex align-items-center">
+                                                    <input type="text" class="form-control" placeholder="Cân nặng"
+                                                        name="weight" />
+                                                    <span class="ml-2">kg</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-group">
+                                                <label for="exampleFormControlInput1">Chiều cao</label>
+                                                <div class="d-flex align-items-center">
+                                                    <input type="text" class="form-control" placeholder="Chiều cao"
+                                                        name="height" />
+                                                    <span class="ml-2">cm</span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

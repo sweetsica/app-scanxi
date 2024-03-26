@@ -8,6 +8,12 @@
         /* height: 100vh; */
         width: 100%;
     }
+
+    @media screen and (max-width: 1024px) {
+        #main-result {
+            height: 100%;
+        }
+    }
 </style>
 @section('content-page')
     <main id="main-result">
