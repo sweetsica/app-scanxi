@@ -96,7 +96,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <canvas id="barChart"> </canvas>
+                                <canvas id="lineChart"> </canvas>
                             </div>
                         </div>
                     </div>
