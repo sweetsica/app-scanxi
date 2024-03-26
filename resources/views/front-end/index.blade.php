@@ -112,7 +112,7 @@
                                 <div class="col-12 col-md-4">
                                     <div class="form-group">
                                         <label for="exampleFormControlInput1">BQI</label>
-                                        <input type="text" class="form-control" name="name"
+                                        <input type="text" class="form-control" name="bqi"
                                             placeholder="Nhập chỉ số BQI" />
                                     </div>
                                 </div>
