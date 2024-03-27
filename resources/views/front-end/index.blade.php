@@ -49,7 +49,7 @@
                                 <h1 class="title-register">Đăng ký tại đây</h1>
                             </div>
                             <div class="row">
-                                <div class="col-12 col-md-12">
+                                <div class="col-12 col-md-4">
                                     <div class="form-group">
                                         <label for="exampleFormControlInput1">Họ và tên</label>
                                         <input type="text" class="form-control" name="name"
@@ -140,7 +140,24 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-4"></div>
+                                <div class="col-12 col-md-4">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-group">
+                                                <label for="exampleFormControlInput1">T-Score</label>
+                                                <input type="text" class="form-control" placeholder="T-Score"
+                                                    name="t-score" />
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-group">
+                                                <label for="exampleFormControlInput1">Z-Score</label>
+                                                <input type="text" class="form-control" placeholder="Z-Score"
+                                                    name="z-score" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="col-12 col-md-4">
                                     <div class="btn-register">
                                         <button class="btn btn-danger w-100 btn-calc">
